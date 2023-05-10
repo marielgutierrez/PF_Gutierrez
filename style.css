@@ -3,8 +3,8 @@
     padding: 0px;
 }
 header{
-    padding-left: 80px;
-    background-color: lightgreen;
+    /* padding-left: 80px;
+    background-color: lightgreen; */
     font-family: 'Kumbh Sans', sans-serif;
 }
 a{
@@ -123,3 +123,14 @@ footer{
     width: 100%;
     height: 100%;
 }
+.video-responsive{
+    width: 70%;
+    height: 70%;
+}
+.video-conocenos{
+    padding: 50px;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+
