@@ -15,6 +15,11 @@ ul{
 }
 .link{
     color:nth($colores, 1);
+    text-align: nth($alineacion, 2);
+    display: $flex-box;
+    flex-direction: nth($alineacion, 2);
+    justify-content: nth($alineacion, 2);
+    align-items: nth($alineacion, 2);
 }
 
 h1{
@@ -25,6 +30,13 @@ h2{
 }
 h3{
     font-size: nth($sizes, 4);
+}
+h4{
+    text-align: nth($alineacion, 1);
+    display: $flex-box;
+    flex-direction: nth($alineacion, 5);
+    justify-content: nth($alineacion, 1);
+    align-items: nth($alineacion, 1);
 }
 
 @import "component/footer";
@@ -49,14 +61,44 @@ h3{
     display: $flex-box;
     text-align: nth($alineacion, 3);
 }
-
+// .nav-item {
+//     margin-right: nth($sizes, 16);
+//   }
+// .navbar-nav {
+//     display: $flex-box;
+//     gap: nth($sizes, 3); /* Espacio entre los elementos */
+//   }
+  
 .contenedor-form{
     padding: nth($sizes, 6);
     display: $flex-box;
     justify-content: nth($alineacion, 1);
     align-items: nth($alineacion, 1);
     font-family: $fuentes
+}
+label {
+    margin-bottom: nth($sizes, 9);
+}
 
+.formulario {
+    padding: nth($sizes, 9);
+    border: nth($sizes, 10) $form nth($colores, 3);
+    border-radius: nth($sizes, 11);
+    font-size: nth($sizes, 12);
+    width: 100%;
+}
+.enviar{
+    padding: nth($sizes, 14);
+    margin: nth($sizes, 15);
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+    border: $variable-nula;
+    border-radius: nth($sizes, 11);
+    font-size: nth($sizes, 13);
+    cursor: $mouse;
+}
+.enviar:hover {
+    background-color: nth($colores, 4);
 }
 .conocenos-green{
     padding: nth($sizes, 5);
@@ -112,8 +154,8 @@ h3{
     grid-row: 1/3;
 }
 .images-conocenos{
-    width: 100%;
-    height: 100%;
+    padding: 20px;
+    width: 80%;
 }
 
 .video-conocenos{

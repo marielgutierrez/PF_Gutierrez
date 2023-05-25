@@ -1,26 +1,40 @@
 $fuentes:'Kumbh Sans', sans-serif;
 
 $sizes:
-0px,
-15px,
-20px,
-30px,
-40px,
-50px,
-80px,
-60px 70px;
+0px,  //1
+15px, //2
+20px, //3
+30px, //4 
+40px, //5
+50px, //6
+80px, //7
+60px 70px, //8
+8px, //9
+1px, //10
+4px, //11
+14px, //12
+16px, //13
+6px 50px, //14
+20px 2px, //15
+10px; //16
 
 $colores:
 white,
-#32a852;
+#32a852,
+#ccc,
+#2c944a;
 
+$form: solid;
 $variable-nula: none;
+$mouse: pointer;
 
 $alineacion: 
 center,
 left,
 end,
-justify;
+justify,
+column,
+flex-start;
 
 $flex-box:flex;
 

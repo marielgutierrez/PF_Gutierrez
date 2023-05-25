@@ -1,12 +1,19 @@
 @import "../base/listas";
 
+.footer-text{
+    text-align: nth($alineacion, 1);
+    display: $flex-box;
+    flex-direction: nth($alineacion, 5);
+    justify-content: nth($alineacion, 1);
+    align-items: nth($alineacion, 1);
+}
 footer{
 
     background-color: nth($colores, 2);
     padding: nth($sizes, 8);
     color: nth($colores, 1);
     font-family: $fuentes;
-    text-align: nth($alineacion, 1);
+    // text-align: nth($alineacion, 1);
     font-size: nth($sizes, 2);
 
 }
