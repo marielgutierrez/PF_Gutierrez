@@ -16,7 +16,11 @@ $sizes:
 16px, //13
 6px 50px, //14
 20px 2px, //15
-10px; //16
+10px, //16
+1fr 1fr, //17
+768px, //18
+1fr; //19
+
 
 $colores:
 white,
@@ -29,12 +33,13 @@ $variable-nula: none;
 $mouse: pointer;
 
 $alineacion: 
-center,
-left,
-end,
-justify,
-column,
-flex-start;
+center, //1
+left, //2
+end, //3
+justify, //4
+column, //5
+flex-start, //6
+auto; //7
 
 $flex-box:flex;
 
